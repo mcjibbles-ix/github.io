@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+body{ 
+	background-color: #ffffff;
+  	color: #404040;
+  	text-align: center;
+  	font-size: 25px;
+  	font-family: Proxima Nova;
+}
+h1{ 
+	color: #1C1C1C; 
+}
+#slogan	{
+	font-style: italic;
+	text-align: center;
+}
+p{
+	font-family: 'Merriweather', serif;
+	margin: 25px 50px 75px 100px;
+}
+
+#list { font-family: 'Bowlby One SC', cursive;
+list-style: none;
+
+}
+header{
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav{
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+aside{
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+article{
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer{
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+div/section{
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+#two_column{
+	background-color:  #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#headshot{
+  background-color:  #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+
+}
+
+#description{
+  background-color:  #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+.wrapper{
+	background-color:  #FADFAD;
+    border: 1px black solid;
+    padding: 20px;}
+
+.clearfix:after{
+  visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
